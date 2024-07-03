@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThpK22CNT3Lession10DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ThpAccount">
+    <Key>
+      <PropertyRef Name="ThpID" />
+    </Key>
+    <Property Name="ThpID" Type="Int32" Nullable="false" />
+    <Property Name="ThpUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ThpPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ThpFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ThpEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ThpPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ThpActive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="ThpK22CNT3Lession10DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ThpAccounts" EntityType="Self.ThpAccount" />
+  </EntityContainer>
+</Schema>
