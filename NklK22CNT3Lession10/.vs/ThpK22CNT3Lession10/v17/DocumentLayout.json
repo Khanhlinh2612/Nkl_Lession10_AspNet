@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|d:\\asp.net_thp\\thplession10db\\thpk22cnt3lession10\\thpk22cnt3lession10\\views\\shared\\_thplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|solutionrelative:thpk22cnt3lession10\\views\\shared\\_thplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|d:\\asp.net_thp\\thplession10db\\thpk22cnt3lession10\\thpk22cnt3lession10\\controllers\\thpaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|solutionrelative:thpk22cnt3lession10\\controllers\\thpaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|d:\\asp.net_thp\\thplession10db\\thpk22cnt3lession10\\thpk22cnt3lession10\\views\\thpaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|solutionrelative:thpk22cnt3lession10\\views\\thpaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|d:\\asp.net_thp\\thplession10db\\thpk22cnt3lession10\\thpk22cnt3lession10\\views\\thpaccounts\\thplogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|solutionrelative:thpk22cnt3lession10\\views\\thpaccounts\\thplogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|d:\\asp.net_thp\\thplession10db\\thpk22cnt3lession10\\thpk22cnt3lession10\\views\\thphome\\thpindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|solutionrelative:thpk22cnt3lession10\\views\\thphome\\thpindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|d:\\asp.net_thp\\thplession10db\\thpk22cnt3lession10\\thpk22cnt3lession10\\controllers\\thphomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DF83F8-5002-4032-99B4-057C8DF80100}|ThpK22CNT3Lession10\\ThpK22CNT3Lession10.csproj|solutionrelative:thpk22cnt3lession10\\controllers\\thphomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThpIndex.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Views\\ThpHome\\ThpIndex.cshtml",
+              "RelativeDocumentMoniker": "ThpK22CNT3Lession10\\Views\\ThpHome\\ThpIndex.cshtml",
+              "ToolTip": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Views\\ThpHome\\ThpIndex.cshtml",
+              "RelativeToolTip": "ThpK22CNT3Lession10\\Views\\ThpHome\\ThpIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T03:11:24.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThpHomeController.cs",
+              "DocumentMoniker": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Controllers\\ThpHomeController.cs",
+              "RelativeDocumentMoniker": "ThpK22CNT3Lession10\\Controllers\\ThpHomeController.cs",
+              "ToolTip": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Controllers\\ThpHomeController.cs",
+              "RelativeToolTip": "ThpK22CNT3Lession10\\Controllers\\ThpHomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T03:08:04.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ThpLayout.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Views\\Shared\\_ThpLayout.cshtml",
+              "RelativeDocumentMoniker": "ThpK22CNT3Lession10\\Views\\Shared\\_ThpLayout.cshtml",
+              "ToolTip": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Views\\Shared\\_ThpLayout.cshtml",
+              "RelativeToolTip": "ThpK22CNT3Lession10\\Views\\Shared\\_ThpLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T02:58:48.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThpAccountsController.cs",
+              "DocumentMoniker": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Controllers\\ThpAccountsController.cs",
+              "RelativeDocumentMoniker": "ThpK22CNT3Lession10\\Controllers\\ThpAccountsController.cs",
+              "ToolTip": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Controllers\\ThpAccountsController.cs",
+              "RelativeToolTip": "ThpK22CNT3Lession10\\Controllers\\ThpAccountsController.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAwwAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T02:54:07.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Views\\ThpAccounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "ThpK22CNT3Lession10\\Views\\ThpAccounts\\Create.cshtml",
+              "ToolTip": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Views\\ThpAccounts\\Create.cshtml",
+              "RelativeToolTip": "ThpK22CNT3Lession10\\Views\\ThpAccounts\\Create.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T02:44:06.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThpLogin.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Views\\ThpAccounts\\ThpLogin.cshtml",
+              "RelativeDocumentMoniker": "ThpK22CNT3Lession10\\Views\\ThpAccounts\\ThpLogin.cshtml",
+              "ToolTip": "D:\\ASP.NET_THP\\ThpLession10Db\\ThpK22CNT3Lession10\\ThpK22CNT3Lession10\\Views\\ThpAccounts\\ThpLogin.cshtml",
+              "RelativeToolTip": "ThpK22CNT3Lession10\\Views\\ThpAccounts\\ThpLogin.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T02:43:15.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

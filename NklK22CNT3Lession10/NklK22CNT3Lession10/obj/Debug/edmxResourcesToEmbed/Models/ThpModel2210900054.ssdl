@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThpK22CNT3Lession10DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ThpAccount">
+    <Key>
+      <PropertyRef Name="ThpID" />
+    </Key>
+    <Property Name="ThpID" Type="int" Nullable="false" />
+    <Property Name="ThpUserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ThpPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="ThpFullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ThpEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="ThpPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="ThpActive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="ThpK22CNT3Lession10DbModelStoreContainer">
+    <EntitySet Name="ThpAccount" EntityType="Self.ThpAccount" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

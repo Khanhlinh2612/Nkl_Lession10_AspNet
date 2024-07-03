@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ThpK22CNT3Lession10DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ThpAccount">
+          <Key>
+            <PropertyRef Name="ThpID" />
+          </Key>
+          <Property Name="ThpID" Type="int" Nullable="false" />
+          <Property Name="ThpUserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="ThpPassword" Type="nvarchar" MaxLength="50" />
+          <Property Name="ThpFullName" Type="nvarchar" MaxLength="50" />
+          <Property Name="ThpEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="ThpPhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="ThpActive" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="ThpK22CNT3Lession10DbModelStoreContainer">
+          <EntitySet Name="ThpAccount" EntityType="Self.ThpAccount" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ThpK22CNT3Lession10DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ThpAccount">
+          <Key>
+            <PropertyRef Name="ThpID" />
+          </Key>
+          <Property Name="ThpID" Type="Int32" Nullable="false" />
+          <Property Name="ThpUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ThpPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ThpFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ThpEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ThpPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ThpActive" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="ThpK22CNT3Lession10DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ThpAccounts" EntityType="Self.ThpAccount" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ThpK22CNT3Lession10DbModelStoreContainer" CdmEntityContainer="ThpK22CNT3Lession10DbEntities">
+          <EntitySetMapping Name="ThpAccounts">
+            <EntityTypeMapping TypeName="ThpK22CNT3Lession10DbModel.ThpAccount">
+              <MappingFragment StoreEntitySet="ThpAccount">
+                <ScalarProperty Name="ThpID" ColumnName="ThpID" />
+                <ScalarProperty Name="ThpUserName" ColumnName="ThpUserName" />
+                <ScalarProperty Name="ThpPassword" ColumnName="ThpPassword" />
+                <ScalarProperty Name="ThpFullName" ColumnName="ThpFullName" />
+                <ScalarProperty Name="ThpEmail" ColumnName="ThpEmail" />
+                <ScalarProperty Name="ThpPhone" ColumnName="ThpPhone" />
+                <ScalarProperty Name="ThpActive" ColumnName="ThpActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

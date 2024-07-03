@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ThpK22CNT3Lession10.Models.ThpAccount>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_ThpLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ThpUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThpPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThpFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThpEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThpPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThpActive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThpUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThpPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThpFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThpEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThpPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThpActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ThpID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ThpID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ThpID })
+        </td>
+    </tr>
+}
+
+</table>

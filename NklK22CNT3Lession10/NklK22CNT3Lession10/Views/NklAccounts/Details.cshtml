@@ -1,0 +1,67 @@
+﻿@model ThpK22CNT3Lession10.Models.ThpAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_ThpLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ThpAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ThpUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThpUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThpPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThpPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThpFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThpFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThpEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThpEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThpPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThpPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThpActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThpActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ThpID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
